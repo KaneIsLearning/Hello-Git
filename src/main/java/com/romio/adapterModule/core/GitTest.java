@@ -13,6 +13,18 @@ public class GitTest {
         System.out.println("测试提交文件！");
         System.out.println("测试THRED");
         System.out.println("测试一键提交代码  2");
+
+
+    }
+
+    /**
+     * test new construction for example:method add
+     * @param numberA
+     * @param numberB
+     * @return
+     */
+    public static double add(double numberA,double numberB){
+        return numberA+numberB;
     }
 
 }
