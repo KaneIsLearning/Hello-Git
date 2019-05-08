@@ -12,6 +12,7 @@ public class Test {
     public static void main(String[] args) {
         //模拟发起者从初始状态到运动状态到死亡状态，再到保存点，利用备忘录模式
         Originator ori = new Originator();
+        String string = new String("ddd");
         ori.show();
         ori.setState("运动状态！来到保存点。");
         ori.show();
